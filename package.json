@@ -1,0 +1,28 @@
+{
+  "name": "oliv",
+  "displayName": "oliv",
+  "description": "gutted ayu mixed with a jellybeans rip-off",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "oliv",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oliv-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "path": "./syntaxes/injection.json",
+        "scopeName": "source.comment.todo.injection",
+        "injectTo": ["source.cpp", "source.python"]
+      }
+    ]
+  }
+}
