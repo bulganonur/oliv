@@ -234,16 +234,15 @@
 			"name": "RED",
 			"scope": [
 				"constant.numeric",
-				"constant.language.true",
-				"constant.language.false",
-				"constant.language.nullptr",
+				"constant.language",
 				"punctuation.section.block",
-				"keyword.operator.cast.const_cast"
+				"keyword.operator.cast.const_cast",
+				"entity.other.attribute-name.pragma.preprocessor"
 				
 
 				// python
 				// ---
-				
+
 			],
 			"settings": {
 				"foreground": "#AC5A42"
@@ -298,7 +297,11 @@
 				"keyword.other.using",
 
 				// python
-				"keyword.control.flow"
+				"keyword.control.flow",
+
+				// lua
+				"keyword.local", 
+				"keyword.control.lua"
 
 			],
 			"settings": {
@@ -312,7 +315,10 @@
 				"keyword.operator.cast",
 
 				// python
-				"meta.function-call"
+				"meta.function-call",
+
+				// xmake
+				"support.function.any-method.xmake"
 
 			],
 			"settings": {
@@ -338,7 +344,7 @@
 			"scope": [
 				"constant.character.escape",
 				"constant.other.placeholder"
-
+				
 				// python
 				// ---
 				
@@ -385,7 +391,10 @@
 				// cmake
 				"entity.source.cmake",
 				"variable.source.cmake",
-				"source.cmake"
+				"source.cmake",
+
+				// xmake
+				"source.xmake"
 
 			],
 			"settings": {
@@ -409,9 +418,9 @@
 			}
 		},
 		{
-			"name": "GRAY",
+			"name": "COMMENTLINE - BROWN/RED",
 			"scope": [
-				"comment",
+				"comment.line",
 				"punctuation.definition.comment"
 
 				// python
@@ -421,6 +430,21 @@
 			"settings": {
 				"foreground": "#7F6666",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "COMMENTBLOCK - SWAMP",
+			"scope": [
+				"comment.block",
+				"punctuation.definition.comment.begin",
+				"punctuation.definition.comment.end"
+				
+				// python
+				// ---
+				
+			],
+			"settings": {
+				"foreground": "#80A090"
 			}
 		},
 		{
