@@ -301,7 +301,10 @@
 
 				// lua
 				"keyword.local", 
-				"keyword.control.lua"
+				"keyword.control.lua",
+
+				// xmake
+				"keyword.control.xmake"
 
 			],
 			"settings": {
@@ -318,7 +321,8 @@
 				"meta.function-call",
 
 				// xmake
-				"support.function.any-method.xmake"
+				"support.function.any-method.xmake",
+				"support.function.xmake"
 
 			],
 			"settings": {
