@@ -266,6 +266,7 @@
 				"keyword.control.else",
 				"keyword.control.for",
 				"keyword.control.while",
+				"keyword.control.do",
 				"keyword.control.return",
 				"keyword.control.break",
 				"keyword.control.continue",
@@ -316,13 +317,16 @@
 			"scope": [
 				"entity.name.function",
 				"keyword.operator.cast",
+				"keyword.other.operator.overload",
 
 				// python
 				"meta.function-call",
 
 				// xmake
-				"support.function.any-method.xmake",
-				"support.function.xmake"
+        		"support.function"
+				//"support.function.any-method.xmake",
+				//"support.function.xmake",
+        		//"support.function.library.xmake"
 
 			],
 			"settings": {
@@ -483,6 +487,7 @@
 		"type": "#E1B655",
 		"templateType": "#E1B655",
 		"namespace": "#E1B655",
+		"enum": "#E1B655",
 		"variable": "#D9D9C4",
 		"property": "#D9D9C4",
 		"variable.local": "#95938d",
