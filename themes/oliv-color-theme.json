@@ -253,6 +253,9 @@
 			"scope": [
 				// python
 				// ---
+
+				// glsl
+				"storage.type.glsl"
 				
 			],
 			"settings": {
@@ -305,7 +308,11 @@
 				"keyword.control.lua",
 
 				// xmake
-				"keyword.control.xmake"
+				"keyword.control.xmake", 
+
+				// glsl
+				"storage.modifier.glsl",
+				"keyword.control.glsl"
 
 			],
 			"settings": {
@@ -373,7 +380,10 @@
 				"storage.type.function",
 
 				// cmake
-				"keyword.cmake"
+				"keyword.cmake",
+
+				// glsl
+				"keyword.directive.preprocessor.glsl"
 				
 			],
 			"settings": {
@@ -402,7 +412,10 @@
 				"source.cmake",
 
 				// xmake
-				"source.xmake"
+				"source.xmake", 
+				
+				// glsl
+				"source.glsl"
 
 			],
 			"settings": {
