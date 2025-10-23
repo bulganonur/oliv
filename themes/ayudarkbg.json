@@ -501,7 +501,7 @@
 		"templateType": "#E1B655",
 		"namespace": "#E1B655",
 		"enum": "#E1B655",
-		"variable": "95938d", //"#D9D9C4", (same as property or parameter depending on lsp)
+		"variable": "#95938d", //"#D9D9C4", (same as property or parameter depending on lsp)
 		"property": "#D9D9C4",
 		"variable.local": "#95938d",
 		"parameter": "#95938d",
