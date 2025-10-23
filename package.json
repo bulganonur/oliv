@@ -3,12 +3,18 @@
   "displayName": "oliv",
   "description": "jellybeans, ayu, gruvbox mix",
   "version": "0.0.1",
+  "author": "bulganonur (https://github.com/bulganonur)",
   "engines": {
     "vscode": "^1.86.0"
   },
   "categories": [
     "Themes"
   ],
+  "homepage": "https://github.com/bulganonur/oliv",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bulganonur/oliv.git"
+	},
   "contributes": {
     "themes": [
       {
