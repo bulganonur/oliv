@@ -1,7 +1,7 @@
 {
   "name": "oliv",
   "displayName": "oliv",
-  "description": "gutted ayu mixed with jellybeans rip-off",
+  "description": "jellybeans, ayu, gruvbox mix",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "oliv",
+        "label": "oliv - Ayu Dark Background",
         "uiTheme": "vs-dark",
-        "path": "./themes/oliv-color-theme.json"
+        "path": "./themes/ayudarkbg.json"
+      },
+      {
+        "label": "oliv - Gruvbox Dark Hard Background",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvboxdarkhardbg.json"
       }
     ],
     "grammars": [
