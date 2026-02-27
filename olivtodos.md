@@ -4,3 +4,4 @@ storage.type.modifier.access.public -> public inheritance (include also private 
 entity.name.type.parameter -> reliable, server, replicated etc. (for ue)
 meta.function.lua (colon -> Person:new, Person:greet etc.)
 keyword.other.static_assert.cpp
+semantictokens -> typeParameter (template types)
