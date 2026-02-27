@@ -293,12 +293,16 @@
 				"storage.type.template",
 				"storage.type.template.argument.typename",
 				"storage.type.extern",
+				"storage.type.modifier.access.public",
+				"storage.type.modifier.access.protected",
+				"storage.type.modifier.access.private",
 				"keyword.operator.new",
 				"keyword.operator.delete",
 				"keyword.other.delete",
 				"keyword.other.typedef",
 				"keyword.other.default",
 				"keyword.other.using",
+				"keyword.other.static_assert",
 
 				// python
 				"keyword.control.flow",
@@ -499,6 +503,7 @@
 		"parameter.label": "#bfbdb6",
 		"type": "#E1B655",
 		"templateType": "#E1B655",
+		"typeParameter": "#E1B655",
 		"namespace": "#E1B655",
 		"enum": "#E1B655",
 		"variable": "#95938d", //"#D9D9C4", (same as property or parameter depending on lsp)

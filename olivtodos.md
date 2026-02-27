@@ -1,7 +1,1 @@
-entity.name.other.preprocessor.macro.predefined.NDEBUG
-file/folder icons ???
-storage.type.modifier.access.public -> public inheritance (include also private and protected)
-entity.name.type.parameter -> reliable, server, replicated etc. (for ue)
 meta.function.lua (colon -> Person:new, Person:greet etc.)
-keyword.other.static_assert.cpp
-semantictokens -> typeParameter (template types)
