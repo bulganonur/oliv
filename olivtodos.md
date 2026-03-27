@@ -11,3 +11,4 @@ keyword.other.unit.suffix.integer.cpp -> f in 1e-6f;
 storage.type.built-in.primitive -> gold?
 storage.type.class.doxygen -> block comment
 variable.parameter -> for doxygen comments grey(semantic->parameter)
+storage.type.union -> purple
