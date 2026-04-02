@@ -13,3 +13,4 @@ storage.type.built-in.primitive -> gold?
 storage.type.class.doxygen -> block comment
 variable.parameter -> for doxygen comments grey(semantic->parameter)
 storage.type.union -> purple
+source.glsl -> remove
