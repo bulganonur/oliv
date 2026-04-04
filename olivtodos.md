@@ -14,3 +14,4 @@ storage.type.class.doxygen -> block comment
 variable.parameter -> for doxygen comments grey(semantic->parameter)
 storage.type.union -> purple
 source.glsl -> remove
+keyword.other.unit.suffix.integer.cpp -> e.g. 1u
