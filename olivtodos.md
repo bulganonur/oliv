@@ -17,3 +17,4 @@ storage.type.union -> purple
 source.glsl -> remove
 keyword.other.unit.suffix.integer.cpp -> e.g. 1u
 keyword.other.unit.hexadecimal.cpp
+entity.name.operator.type.cpp -> e.g. operator bool()
