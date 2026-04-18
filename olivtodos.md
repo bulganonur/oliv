@@ -1,5 +1,5 @@
 meta.function.lua (colon -> Person:new, Person:greet etc.)
-semantic token type -> modifier (final)
+semantic token type -> modifier (final) // storage.type.modifier.final.cpp
 storage.modifier.constexpr.cpp
 keyword.operator.noexcept.cpp
 keyword.control.switch.cpp
