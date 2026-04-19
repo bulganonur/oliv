@@ -2,8 +2,9 @@ name: Package VSCode Extension
 
 on:
   push:
-    tags:
-      - 'v*'   # trigger on version tags like v1.0.0
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
