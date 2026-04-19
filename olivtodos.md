@@ -19,3 +19,4 @@ keyword.other.unit.suffix.integer.cpp -> e.g. 1u
 keyword.other.unit.hexadecimal.cpp
 entity.name.operator.type.cpp -> e.g. operator bool()
 meta.block.cpp -> ( `{}` )
+storage.type.return-type.lambda.cpp
