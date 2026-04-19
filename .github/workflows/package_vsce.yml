@@ -1,37 +1,34 @@
 name: Package VSCode Extension
 
 on:
-  push:
-    branches:
-      - main
-    tags:
-      - 'v*'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
 
-      - name: Setup Node
-        uses: actions/setup-node@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
 
-      - name: Install vsce
-        run: npm install -g @vscode/vsce
+      - run: npm install -g @vscode/vsce
 
-      - name: Install dependencies
-        run: npm install
+      - run: vsce package
 
-      - name: Package extension
-        run: vsce package
+      - run: |
+          mkdir -p bin
+          rm -f bin/*.vsix
+          mv *.vsix bin/
 
-      - name: Upload VSIX
-        uses: actions/upload-artifact@v6
-        with:
-          name: vsix
-          path: "*.vsix"
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bin/*.vsix
+          git commit -m "Update VSIX" || echo "No changes"
+          git push
