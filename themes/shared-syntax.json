@@ -1,0 +1,324 @@
+{
+	"tokenColors": [
+		{
+			"name": "RED",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"punctuation.section.block",
+				"meta.block",
+				"keyword.other.unit.hexadecimal",
+				"keyword.operator.cast.const_cast",
+				"entity.other.attribute-name.pragma.preprocessor"
+
+
+				// python
+				// ---
+
+			],
+			"settings": {
+				"foreground": "#AC5A42"
+			}
+		},
+		{
+			"name": "GOLD",
+			"scope": [
+				"storage.type.built-in.primitive",
+				"storage.type.return-type.lambda",
+				"entity.name.scope-resolution",
+				"entity.name.namespace",
+				"support.type.built-in.posix-reserved",
+				"entity.other.attribute.max_align_t",
+				
+				// python
+				// ---
+
+				// glsl
+				"storage.type.glsl"
+
+			],
+			"settings": {
+				"foreground": "#E1B655"
+			}
+		},
+		{
+			"name": "PURPLE",
+			"scope": [
+				"keyword.control.if",
+				"keyword.control.else",
+				"keyword.control.for",
+				"keyword.control.while",
+				"keyword.control.do",
+				"keyword.control.return",
+				"keyword.control.break",
+				"keyword.control.continue",
+				"keyword.control.try",
+				"keyword.control.catch",
+				"keyword.control.throw",
+				"keyword.control.switch",
+				"keyword.control.case",
+				"keyword.control.default",
+				"storage.modifier.specifier.const",
+				"storage.modifier.const",
+				"storage.modifier.constexpr",
+				"storage.modifier.specifier.extern",
+				"storage.modifier.specifier.functional.post-parameters",
+				"storage.modifier.specifier.functional.pre-parameters",
+				"storage.modifier.specifier.thread_local",
+				"storage.modifier.virtual",
+				"storage.modifier.static",
+				"storage.modifier.inline",
+				"storage.modifier.specifier.static",
+				"storage.type.namespace",
+				"storage.type.class",
+				"storage.type.struct",
+				"storage.type.enum",
+				"storage.type.template",
+				"storage.type.template.argument.typename",
+				"storage.type.extern",
+				"storage.type.union",
+				"storage.type.modifier.access.control",
+				"storage.type.modifier.access.public",
+				"storage.type.modifier.access.protected",
+				"storage.type.modifier.access.private",
+				"storage.type.modifier.final",
+				"keyword.operator.new",
+				"keyword.operator.delete",
+				"keyword.operator.noexcept",
+				"keyword.other.delete",
+				"keyword.other.typedef",
+				"keyword.other.default",
+				"keyword.other.using",
+				"keyword.other.static_assert",
+
+				// python
+				"keyword.control.flow",
+
+				// lua
+				"keyword.local",
+				"keyword.control.lua",
+
+				// xmake
+				"keyword.control.xmake",
+
+				// glsl
+				"storage.modifier.glsl",
+				"keyword.control.glsl"
+
+			],
+			"settings": {
+				"foreground": "#E18BE1"
+			}
+		},
+		{
+			"name": "BLUE",
+			"scope": [
+				"entity.name.function",
+				"keyword.operator.cast",
+				"keyword.other.operator.overload",
+
+				// python
+				"meta.function-call",
+
+				// xmake
+        		"support.function"
+				//"support.function.any-method.xmake",
+				//"support.function.xmake",
+        		//"support.function.library.xmake"
+
+			],
+			"settings": {
+				"foreground": "#8FA5CD"
+			}
+		},
+		{
+			"name": "GREEN",
+			"scope": [
+				"string",
+				"punctuation.definition.string"
+
+				// python
+				// ---
+
+			],
+			"settings": {
+				"foreground": "#99AD6A"
+			}
+		},
+		{
+			"name": "GREEN but different",
+			"scope": [
+				"constant.character.escape",
+				"constant.other.placeholder"
+
+				// python
+				// ---
+
+			],
+			"settings": {
+				"foreground": "#69BB69BB"
+			}
+		},
+		{
+			"name": "LILAC",
+			"scope": [
+				"keyword.control.directive",
+				"keyword.other.unit.suffix.floating-point",
+				"keyword.other.unit.exponent.decimal",
+				"keyword.other.unit.suffix.integer",
+				"meta.preprocessor.macro",
+				"entity.name.other.preprocessor.macro.predefined.probably.VA_ARGS",
+
+				// python
+				"keyword.control.import",
+				"storage.type.function",
+
+				// cmake
+				"keyword.cmake",
+
+				// glsl
+				"keyword.directive.preprocessor.glsl"
+
+			],
+			"settings": {
+				"foreground": "#C6B5DA"
+			}
+		},
+		{
+			"name": "WHITE",
+			"scope": [
+				"keyword.operator",
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.definition",
+				"punctuation.section",
+				"storage.modifier.reference",
+				"storage.modifier.pointer",
+				"variable.other",
+				"variable.language.this",
+				"entity.name.operator.type",
+
+				// python
+				// ---
+
+				// cmake
+				"entity.source.cmake",
+				"variable.source.cmake",
+				"source.cmake",
+
+				// xmake
+				"source.xmake"
+			],
+			"settings": {
+				"foreground": "#D9D9C4"
+			}
+		},
+		{
+			"name": "WHITE but different",
+			"scope": [
+
+
+				// python
+				// ---
+
+				// cmake
+				"storage.source.cmake"
+
+			],
+			"settings": {
+				"foreground": "#BBBB84"
+			}
+		},
+		{
+			"name": "COMMENTLINE - BROWN/RED",
+			"scope": [
+				"comment.line",
+				"punctuation.definition.comment"
+
+				// python
+				// ---
+
+			],
+			"settings": {
+				"foreground": "#7F6666",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "COMMENTBLOCK - SWAMP",
+			"scope": [
+				"comment.block",
+				"punctuation.definition.comment.begin",
+				"punctuation.definition.comment.end",
+				"storage.type.class.doxygen"
+
+				// python
+				// ---
+
+			],
+			"settings": {
+				"foreground": "#80A090"
+			}
+		},
+		{
+			"name": "JSON - WHITE",
+			"scope": [
+				"support.type.property-name.json.comments"
+			],
+			"settings": {
+				"foreground": "#BFBDB6"
+
+				// #BFBDB6 - default color
+				// #DED3D3 - an alternative, a bit bright
+			}
+		},
+		{
+			"name": "@todo: - cyan",
+			"scope": [
+				"keyword.todo"
+
+			],
+			"settings": {
+				"foreground": "#3ABBAC",
+				"fontStyle": "bold"
+
+				// alternative: #088996
+			}
+		},
+		{
+			"name": "TRANSIENT GREY",
+			"scope": [
+				"variable.parameter", // this is for Doxygen parameters
+				"variable.parameter.preprocessor"
+
+			],
+			"settings": {
+				"foreground": "#95938d"
+			}
+		},
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"parameter.label": "#bfbdb6",
+		"type": "#E1B655",
+		"templateType": "#E1B655",
+		"typeParameter": "#E1B655",
+		"namespace": "#E1B655",
+		"enum": "#E1B655",
+		"variable": "#95938d", //"#D9D9C4", (same as property or parameter depending on lsp)
+		"property": "#D9D9C4",
+		"variable.local": "#95938d",
+		"parameter": "#95938d",
+		"function": "#8FA5CD",
+		"method": "#8FA5CD",
+		"templateFunction": "#8FA5CD",
+		"operatorOverload": "#8FA5CD",
+		"memberOperatorOverload": "#8FA5CD",
+		"macro": "#C6B5DA",
+		"enumMember": "#BBBB84",
+
+		// python
+		"class": "#E1B655",
+		"builtinConstant": "#AC5A42"
+	}
+}
