@@ -233,7 +233,8 @@
 			"name": "COMMENTLINE - BROWN/RED",
 			"scope": [
 				"comment.line",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"storage.type.class.doxygen"
 
 				// python
 				// ---
@@ -249,8 +250,7 @@
 			"scope": [
 				"comment.block",
 				"punctuation.definition.comment.begin",
-				"punctuation.definition.comment.end",
-				"storage.type.class.doxygen"
+				"punctuation.definition.comment.end"
 
 				// python
 				// ---
