@@ -6,7 +6,6 @@
 				"constant.numeric",
 				"constant.language",
 				"punctuation.section.block",
-				"meta.block",
 				"keyword.other.unit.hexadecimal",
 				"keyword.operator.cast.const_cast",
 				"entity.other.attribute-name.pragma.preprocessor"
@@ -31,7 +30,8 @@
 
 			],
 			"settings": {
-				"foreground": "#995B66"
+				"foreground": "#995B66",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -211,6 +211,9 @@
 				"variable.other",
 				"variable.language.this",
 				"entity.name.operator.type",
+				"punctuation.vararg-ellipses",
+				"punctuation.vararg-ellipses.template.definition",
+
 
 				// python
 				// ---
@@ -312,7 +315,8 @@
 			"name": "TRANSIENT GREY",
 			"scope": [
 				"variable.parameter", // this is for Doxygen parameters
-				"variable.parameter.preprocessor"
+				"variable.parameter.preprocessor",
+				"punctuation.vararg-ellipses.variable.parameter.preprocessor"
 
 			],
 			"settings": {
@@ -339,6 +343,7 @@
 		"memberOperatorOverload": "#8FA5CD",
 		"macro": "#C6B5DA",
 		"enumMember": "#BBBB84",
+		"bracket": "#D9D9C4",
 
 		// python
 		"class": "#E1B655",
