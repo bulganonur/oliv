@@ -9,3 +9,5 @@ punctuation.vararg-ellipses.variable.parameter.preprocessor.cpp -> (...) inside 
 
 entity.other.attribute.nodiscard.cpp -> ???
 keyword.other.requires.cpp -> ???
+
+new sytax injection for Note:, note:, @note:, @Note(): etc.
