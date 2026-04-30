@@ -21,6 +21,20 @@
 			}
 		},
 		{
+			"name": "REDish",
+			"scope": [
+				"entity.other.attribute.nodiscard",
+				"keyword.other.requires"
+
+				// python
+				// ---
+
+			],
+			"settings": {
+				"foreground": "#995B66"
+			}
+		},
+		{
 			"name": "GOLD",
 			"scope": [
 				"storage.type.built-in.primitive",
@@ -281,8 +295,17 @@
 			"settings": {
 				"foreground": "#3ABBAC",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "@note: - alt cyan",
+			"scope": [
+				"keyword.note"
 
-				// alternative: #088996
+			],
+			"settings": {
+				"foreground": "#088996",
+				"fontStyle": "bold"
 			}
 		},
 		{

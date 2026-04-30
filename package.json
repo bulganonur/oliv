@@ -31,7 +31,7 @@
     "grammars": [
       {
         "path": "./syntaxes/injection.json",
-        "scopeName": "source.comment.todo.injection",
+        "scopeName": "source.comment.helper.injection",
         "injectTo": ["source.cpp", "source.python"]
       }
     ]

@@ -1,16 +1,25 @@
 {
-    "scopeName": "source.comment.todo.injection",
-    "injectionSelector": "L:comment",
-    "patterns": [
-      {
-        "include": "#todo-keyword"
-      }
-    ],
-    "repository": {
-      "todo-keyword": {
-        "match": "(?i)@?\\bTODO\\b(?:\\([^)]*\\))?:",
+  "scopeName": "source.comment.helper.injection",
+  "injectionSelector": "L:comment",
+  "patterns": [
+    {
+      "include": "#todo-keyword"
+    },
+    {
+      "include": "#note-keyword"
+    }
+  ],
+  "repository": {
+    "todo-keyword": {
+      "match": "(?i)@?\\bTODO\\b(?:\\([^)]*\\))?:",
       "captures": {
         "0": { "name": "keyword.todo" }
+      }
+    },
+    "note-keyword": {
+      "match": "(?i)@?\\bNOTE\\b(?:\\([^)]*\\))?:",
+      "captures": {
+        "0": { "name": "keyword.note" }
       }
     }
   }
