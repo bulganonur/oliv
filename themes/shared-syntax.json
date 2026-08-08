@@ -108,6 +108,7 @@
 				"keyword.other.default",
 				"keyword.other.using",
 				"keyword.other.static_assert",
+				"keyword.other.static-assert",
 
 				// python
 				"keyword.control.flow",
